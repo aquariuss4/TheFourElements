@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Four Elements - แบบทดสอบบุคลิกภาพ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>ค้นหาธาตุของคุณ</h1>
+        <p>ตอบคำถามต่อไปนี้เพื่อดูว่าคุณเป็นธาตุอะไร!</p>
+
+        <form id="quizForm">
+            <!-- คำถามที่ 1 -->
+            <div class="question">
+                <p>เมื่อเจอสถานการณ์ที่กดดัน คุณมักจะ...</p>
+                <label><input type="radio" name="q1" value="ดิน"> A. ตั้งหลัก คิดให้รอบคอบก่อนตัดสินใจ</label>
+                <label><input type="radio" name="q1" value="ลม"> B. ปล่อยไปตามสถานการณ์ ไม่ยึดติด</label>
+                <label><input type="radio" name="q1" value="ไฟ"> C. แสดงออกทางอารมณ์ชัดเจน</label>
+                <label><input type="radio" name="q1" value="น้ำ"> D. ปรับตัวให้เข้ากับสถานการณ์ได้ดี</label>
+            </div>
+
+            <!-- คำถามที่ 2 -->
+            <div class="question">
+                <p>คุณมักจะตัดสินใจจากอะไรเป็นหลัก?</p>
+                <label><input type="radio" name="q2" value="ดิน"> A. เหตุผลและความเป็นจริง</label>
+                <label><input type="radio" name="q2" value="น้ำ"> B. ความรู้สึกและสัญชาตญาณ</label>
+                <label><input type="radio" name="q2" value="ไฟ"> C. แรงกระตุ้นและความต้องการ</label>
+                <label><input type="radio" name="q2" value="ลม"> D. ความคิดสร้างสรรค์</label>
+            </div>
+
+            <!-- คำถามที่ 3 -->
+            <div class="question">
+                <p>เวลามีปัญหากับเพื่อน คุณมักจะ...</p>
+                <label><input type="radio" name="q3" value="ดิน"> A. พยายามหาทางแก้ปัญหาแบบเป็นระบบ</label>
+                <label><input type="radio" name="q3" value="น้ำ"> B. คุยเปิดใจและพยายามเข้าใจอีกฝ่าย</label>
+                <label><input type="radio" name="q3" value="ไฟ"> C. เผลอแสดงอารมณ์แรงไปก่อน</label>
+                <label><input type="radio" name="q3" value="ลม"> D. ปล่อยไป ไม่อยากให้เรื่องเครียด</label>
+            </div>
+
+            <!-- คำถามที่ 4 -->
+            <div class="question">
+                <p>คนรอบตัวมักบอกว่าคุณเป็นคนแบบไหน?</p>
+                <label><input type="radio" name="q4" value="ดิน"> A. มั่นคง น่าเชื่อถือ</label>
+                <label><input type="radio" name="q4" value="น้ำ"> B. ใจดี อบอุ่น</label>
+                <label><input type="radio" name="q4" value="ไฟ"> C. มีพลังงานสูง มุ่งมั่น</label>
+                <label><input type="radio" name="q4" value="ลม"> D. สนุกสนาน มีความคิดแปลกใหม่</label>
+            </div>
+
+            <!-- คำถามที่ 5 -->
+            <div class="question">
+                <p>กิจกรรมที่คุณชอบทำในเวลาว่างคือ…?</p>
+                <label><input type="radio" name="q5" value="ดิน"> A. อ่านหนังสือ วางแผน หรือทำอะไรที่มีประโยชน์</label>
+                <label><input type="radio" name="q5" value="น้ำ"> B. ฟังเพลง ดูหนัง ใช้เวลากับคนที่รัก</label>
+                <label><input type="radio" name="q5" value="ไฟ"> C. เล่นกีฬา ออกกำลังกาย หรือทำอะไรที่ท้าทาย</label>
+                <label><input type="radio" name="q5" value="ลม"> D. ท่องเที่ยว ทดลองทำสิ่งใหม่ ๆ</label>
+            </div>
+
+            <!-- คำถามที่ 6 -->
+            <div class="question">
+                <p>ถ้าเปรียบชีวิตเป็นสภาพอากาศ คุณคิดว่าตัวเองเหมือน…?</p>
+                <label><input type="radio" name="q6" value="ดิน"> A. ภูเขาที่มั่นคง</label>
+                <label><input type="radio" name="q6" value="น้ำ"> B. สายน้ำที่ไหลไปตามทาง</label>
+                <label><input type="radio" name="q6" value="ไฟ"> C. แสงแดดที่ร้อนแรง</label>
+                <label><input type="radio" name="q6" value="ลม"> D. สายลมที่อิสระ</label>
+            </div>
+
+            <!-- คำถามที่ 7 -->
+            <div class="question">
+                <p>เวลาคุณมีเป้าหมาย คุณจะ…</p>
+                <label><input type="radio" name="q7" value="ดิน"> A. วางแผนระยะยาว ค่อย ๆ ลงมือทำ</label>
+                <label><input type="radio" name="q7" value="น้ำ"> B. ใช้ความรู้สึกนำทาง</label>
+                <label><input type="radio" name="q7" value="ไฟ"> C. ลงมือทำทันที ไม่รอ</label>
+                <label><input type="radio" name="q7" value="ลม"> D. ลองทำหลายอย่าง แล้วดูว่าชอบอะไร</label>
+            </div>
+
+            <!-- คำถามที่ 8 -->
+            <div class="question">
+                <p>อะไรเป็นสิ่งที่สำคัญที่สุดสำหรับคุณ?</p>
+                <label><input type="radio" name="q8" value="ดิน"> A. ความมั่นคงและความสำเร็จ</label>
+                <label><input type="radio" name="q8" value="น้ำ"> B. ความสัมพันธ์และความเข้าใจ</label>
+                <label><input type="radio" name="q8" value="ไฟ"> C. ความหลงใหลและพลังชีวิต</label>
+                <label><input type="radio" name="q8" value="ลม"> D. อิสรภาพและความสนุก</label>
+            </div>
+
+            <button type="button" onclick="calculateResult()">ดูผลลัพธ์</button>
+        </form>
+
+        <div id="result" class="hidden">
+            <h2>ผลลัพธ์ของคุณคือ...</h2>
+            <p id="elementText"></p>
+            <img id="elementImage" src="" alt="ธาตุของคุณ">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
