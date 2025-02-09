@@ -2,28 +2,28 @@ body {
     font-family: 'Arial', sans-serif;
     text-align: center;
     background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-    width: 90%;
-    max-width: 600px;
+    width: 50%;
     margin: auto;
     background: white;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.question {
-    margin: 15px 0;
-    text-align: left;
+h1 {
+    color: #333;
 }
 
 button {
+    padding: 10px 20px;
     background-color: #007bff;
     color: white;
     border: none;
-    padding: 10px;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -37,7 +37,7 @@ button:hover {
 }
 
 #result img {
-    width: 100%;
-    max-width: 300px;
-    margin-top: 15px;
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
 }
