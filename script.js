@@ -1,3 +1,9 @@
+const elementImages = {
+    "ดิน": "images/earth.jpg",
+    "น้ำ": "images/water.jpg",
+    "ไฟ": "images/fire.jpg",
+    "ลม": "images/air.jpg"
+};
 function calculateResult() {
     let scores = { "ดิน": 0, "น้ำ": 0, "ลม": 0, "ไฟ": 0 };
     let form = document.getElementById("quizForm");
